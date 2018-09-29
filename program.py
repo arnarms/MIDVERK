@@ -72,4 +72,4 @@ def error404(error):
     return template("./templates/error_404.tpl", error=error)
 
 
-run(host='localhost', port=8080, debug=True)
+run(host='0.0.0.0', port=8080, debug=True)
